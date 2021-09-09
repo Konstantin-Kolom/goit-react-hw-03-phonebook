@@ -15,7 +15,7 @@ class Contacts extends Component {
               type="button"
               onClick={() => this.props.onDeleteContact(id)}
             >
-              <span className="">
+              <span>
                 <MdDeleteForever />
               </span>
               <span>Delete</span>
